@@ -1,0 +1,71 @@
+.placing-cactus {
+    display: flex;
+    justify-content: space-between;
+    padding: 24px 25px 24px 25px;
+    gap: 30px;
+    background-color: #FBFBFB;
+}
+
+.box {
+    display: inline-block;
+    width: 204px;
+}
+
+.placing-img {
+    padding-left: 15px;
+}
+
+.placling-description {
+    margin-top: 15px;
+}
+
+.headlines {
+    display: inline;
+    font-size: 17px;
+    font-weight: 700;
+    line-height: 17px;
+    color: #3D3D3D;
+}
+
+.placing-text {
+    font-size: 14px;
+    line-height: 22px;
+    color: #727272;
+    margin-top: 9px;
+    margin-bottom: 0;
+}
+
+.placing-cell {
+    margin-left: 32px;
+    width: 354px;
+    padding-top: 13px;
+    justify-content: center;
+}
+
+.placing-form {
+    margin-top: 25px;
+    margin-bottom: 18px;
+    margin-left: 0;
+}
+
+.placing-imput {
+    height: 40px;
+    width: 269px;
+    border: 1px solid #FFFFFF;
+    border-radius: 6px 0 0 6px; 
+}
+
+.placing-button {
+    height: 40px;
+    background-color: #46A358;
+    border: 1px solid #46A358;
+    border-radius: 0 6px 6px 0;
+    color: #FFFFFF;
+    font-size: 18px;
+    line-height: 18px;
+    font-weight: 700;
+}
+
+.text-placing {
+    margin-top: 0;
+}
