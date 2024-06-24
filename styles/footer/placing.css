@@ -6,13 +6,32 @@
     display: flex;
     justify-content: space-between;
     padding: 24px 25px 24px 25px;
-    gap: 30px;
+    gap: 61px;
     background-color: #FBFBFB;
 }
 
+.placing-box {
+    display: flex;
+    gap: 61px;
+}
+
 .box {
-    display: inline-block;
     width: 204px;
+    position: relative;
+}
+
+.box::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: -30px;
+    height: 100%;
+    width: 1px;
+    background-color: #46A3581A;
+}
+
+.box:last-of-type::after {
+    display: none; /* Сховати лінію для останнього елемента */
 }
 
 .placing-img {
@@ -40,16 +59,15 @@
 }
 
 .placing-cell {
-    margin-left: 32px;
     width: 354px;
     padding-top: 13px;
-    justify-content: center;
 }
 
 .placing-form {
+    display: flex;
+    align-items: center;
     margin-top: 25px;
     margin-bottom: 18px;
-    margin-left: 0;
 }
 
 .placing-imput {
@@ -57,9 +75,16 @@
     width: 269px;
     border: 1px solid #FFFFFF;
     border-radius: 6px 0 0 6px; 
+    font-size: 14px;
+    line-height: 16px;
+}
+
+.placing-imput::placeholder {
+    color: #ACACAC;
 }
 
 .placing-button {
+    width: 85px;
     height: 40px;
     background-color: #46A358;
     border: 1px solid #46A358;

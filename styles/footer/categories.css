@@ -3,6 +3,7 @@
     justify-content: space-between;
     padding: 33px 155px 29px 25px;
     background-color: #FBFBFB;
+    border-bottom: 1px solid #46A35833;
 }
 
 .footer-help {
@@ -36,6 +37,10 @@
     gap: 10px;
     padding-top: 20px;
     padding-bottom: 33px;
+}
+
+.footer-a {
+    line-height: 0;
 }
 
 .title-accept {
